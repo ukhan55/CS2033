@@ -1,0 +1,166 @@
+*{
+		font-family: 'Eagle Lake', cursive;
+}
+body{margin: 0;
+	padding: 0;
+	background-color: #900024;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	background-color: #000000;
+}
+nav ul li{
+	margin-left: 10px;
+	padding: 5px;
+	width: 120px;
+	text-align: center;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover, .active{
+	color: #faa005;
+}
+.main{
+	text-align: center;
+	padding: 20px;
+
+}
+.title{
+	color: #000000;
+	font-size: 66px;
+	font-family: 'Kaushan Script', cursive!important;
+	text-align: center;
+}
+.txt-20{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Eagle Lake', cursive;
+}
+.banner{
+	height: 380px;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+}
+.inline-images img{
+	width: 32%;
+	height: 250px;
+	margin: 20px;
+	transition-duration: 0.5s;
+	border: solid #333 3px;
+	animation-name: animBorder;
+	animation-duration: 2.4s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+
+}
+.inline-images-2 .img{
+	width: 25%;
+	height: 250px;
+	margin: 20px;
+	transition-duration: 0.5s;
+	border: solid #333 3px;	
+	background-color: #fff6;
+}
+.inline-images-2 .img img{
+	width: 100%;
+	height: 220px;
+}
+.inline-images-2 .img p{
+	margin: 0;
+}
+.inline-images img:hover{
+	width: 35%;
+	height: 270px;
+	border: solid #fff 3px;	
+
+}
+.i1,.i2,.i3,.i4{
+	margin: auto;
+}
+.menu-list{
+	margin-left: 80px;
+	text-align: left;
+}
+.menu-img{
+	position: absolute;
+	border: solid 2px #333;
+	animation-name: animBorder;
+	animation-duration: 2.4s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+.menu-img:hover{
+	border: solid 4px #fff;
+
+}
+@keyframes animBorder {
+  0% {border: solid 4px #333;}
+  50% {border: solid 4px #fff;}
+  100% {border: solid 4px #333;}
+
+}
+.menu-img-1{
+	height: 75px;
+	width: 85px;
+	border-radius: 100px;
+	right: 25px;
+	top: 38px;
+
+}
+section{
+	position: relative;
+}
+.menu-img-2{
+	height: 85px;
+	width:95px;
+	border-radius: 100px;
+	right:85px;
+	top: 85px;
+
+}
+
+.menu-img-3{
+	height: 88px;
+	width:99px;
+	border-radius: 100px;
+	right:75px;
+	top: 40px;
+}
+.menu-img-4{
+	height: 75px;
+	width:80px;
+	border-radius: 100px;
+	right:5px;
+	top: 66px;
+}
+.no-margin{
+	margin: 0;
+	float: left;
+}
+.container{
+	padding: 50px;
+}
+.txt-white{
+	color: white;
+}
+.border-r{
+	border-right:solid 2px #fff;
+}
+.txt-input{
+	padding: 8px;
+	margin-top: 10px;
+	width: 80%;
+}
+.txt-18{
+	font-size: 16px;
+	line-height: 28px;
+}
+.pattern-bg{
+	background-color: #960000;
+	background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}

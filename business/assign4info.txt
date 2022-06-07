@@ -1,0 +1,84 @@
+Assignment 4 information
+
+Welcome to Uzi's shoe spree, where we make it our mission to ensure customer satisfaction with the product they are purchasing. We sell only the finest shoes that are very rare at amazing prices. We have shoes ranging from the late Virgil Abloh's off-white collection, to travis scott jordan 1's, to Kanye's yeezys. We also sell clothing, like one of nikes most popular jump suits (nike tech-fleece) to drakes nocta line including his puffer's and jump suits. 
+
+Team Members:
+
+Micheal Jordan
+
+Lebron James
+
+Stephen Curry
+
+
+Products
+
+6 diff products: Basketball Shoes, casual shoes, Sweaters, jump-suits amd jackets
+
+** could have 3 different items that are each
+available in Red or in Black, and that would constitute the 6 products. **
+
+for each product
+- add a div that includes:
+	Product Name
+	Product Code
+	Image of Product
+	Description
+	Add to cart button
+		**Clicking this button must open a Bootstrap modal window 		with a message to indicate that the item has been added 		to the cart.
+		(Note: this is not an actual e-commerce site so you don't 		have to create a cart that tracks all the added items).**
+	All the product boxes should have the same design and they should all be
+displayed neatly in a grid formation.
+
+Contact
+Create a contact web form with the following input fields and include
+corresponding labels with each (where applicable):
+o Name (text input)
+o Email address (text input)
+o Reason for message (select / dropdown menu with the options below)
+ General inquiry
+ Pricing and bulk rates
+ Product info
+ Shipping
+ Other
+o Product ID (text input) ** details on this field are given in the next
+bullet point about form modification
+o Message (textarea)
+o Send (button; not a submit button)
+ Perform form modification to hide/show the Product ID textbox (and its
+label) depending on the selection in the "Reason" dropdown menu. If the
+user selects "Product info", show this Product ID textbox. If anything else is
+selected, hide this textbox. Trigger this function with an "onchange" listener.
+ Apply "onblur" JavaScript form validation on this contact form to indicate if
+the entered text in each of the text-based fields is valid or invalid. Show the
+validations by changing the corresponding fields' text or border colour to
+green (valid) or red (invalid). The validation conditions for each field are as
+follows (invalid if the given condition(s) are not met):
+o Name: valid if text is at least 4 characters long and contains no
+numbers (don't worry about punctuation or other characters).
+o Email address: valid if it follows the format: characters @ characters
+. characters (you can use a regular expression or another approach)
+o Product ID: valid if text matches one of the product codes shown in
+your Products section above (remember this field will sometimes be
+hidden, but the validation portion shouldn't be affected by this since it
+can only be triggered when the field is visible and "blurred").
+ Note: you can use a regular expression or a loop with a Boolean
+variable or you can even simplify it by simply checking if the
+typed-in code is an exact match with your 6 product codes
+using simple if-else statements. Any approach is fine here.
+o Message: valid if text is more than 10 characters and less than 30
+characters in length.
+ The "Send" button must have an "onclick" listener that calls a function when
+it is clicked. The function must open a modal window that provides a clear
+message like "Successfully sent message". Nothing will actually send but the
+popup window should display a message saying it was sent
+
+
+https://www.footlocker.ca/
+
+https://www.champssports.ca/
+
+https://stockx.com/
+
+
+

@@ -1,0 +1,93 @@
+.offwhite {
+	  float: left;
+         margin-top: 75px; 
+	  width: 30%;
+	  padding: 5px;
+        margin-left: 125px;
+      /**border: 2px solid black;**/
+
+	}
+
+
+/**img {
+	  width: 500%;
+	}
+**/
+
+.jordan {
+	  float: right;
+         margin-top: 75px; 
+	  width: 30%;
+	  padding: 5px;
+    margin-right: 250px;
+      /**border: 2px solid black;**/
+	}
+
+.members h2 {
+    font-size:40px;
+    padding:30px;
+    text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/**resonsive**/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+#lebron{
+    margin-left: 70px;
+  
+}
+
+#curry{
+    margin-left: 70px;
+}
+
+#mj{
+    margin-left: 70px;
+}
+
+#mjbio{
+    
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 72.5px;
+}
+
+#lbjbio{
+    
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#currybio{
+    
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}

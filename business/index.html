@@ -1,0 +1,463 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+            
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/bannerstyle.css">
+         <link rel="stylesheet" href="css/homestyles.css">
+        <link rel="stylesheet" href="css/products.css">
+            <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    
+
+    
+    <script type="text/javascript"> //add js
+    
+  function scroll() {
+      
+      var t = window.scrollY; //vertical scroll amount
+      var para = document.getElementById("para"); 
+      
+      
+      var m = -0.25; //m value should be negative
+      var b = 0; //since this is the default backgroun position before scrolling
+      
+      var newY = m*t + b;
+      
+      
+      para.style.backgroundPositionY = newY + "px";
+      
+     }
+</script>
+    
+
+            
+            
+<style type="text/css"> 
+    
+    .parallax-img {
+        width:100%;
+        height:300px;
+        margin-bottom:30px;
+        background-image: url("img/bluebj.jpg");
+
+            /** right now its only showing a small section  because our div is only the width of the wrapper and the height of 300px, we will fix that **/
+        background-size:cover; 
+            /**indicates we want the full size of the image shown, only made small diff**/
+        background-attachment:fixed;
+            /**means that the image should remain fixed in place when you scroll rather than shifting with everything else!!**/
+        margin-top: 50px;
+        
+    }
+    
+    
+    
+</style>
+
+    </head>
+    
+
+<body onscroll="scroll();">
+            
+        
+      <div class="wrapper">
+       
+          
+    <section class="header">
+    <div class="box banner">
+        <img src="img/banner.jpg">
+    </div>
+    <h1>Uzi's shoe spree</h1>
+    <p>Freshest Shoes in the Game</p>
+    <a class="btn-bgstroke">Click here for a suprise!</a>
+        </section>
+          
+           <section id="navsect">
+                <ul class="nav" id="nav">
+                    <a href="#Home"><li class="box" id="l1">Home</li></a>
+                    <a href="#Products"><li class="box" id="l2">Products</li></a>
+                    <a href="#Contacts"><li class="box" id="l3">Contacts</li></a>
+                    <a href="#References"><li class="box" id="l4">References</li></a>
+                  <div class="dropdown">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Links
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="https://www.footlocker.ca/">Footlocker</a>
+        <a class="dropdown-item" href="https://www.champssports.ca/">Champssports</a>
+        <a class="dropdown-item" href="https://stockx.com/">Stockx</a>
+      </div>
+    </div>
+  </div>
+            
+                    
+                </ul>
+            </section>
+          
+          <a name="Home" id="s1"></a>
+           <section>
+               
+              <div class="description">
+               Welcome to Uzi's shoe spree, where we make it our mission to ensure customer satisfaction with the product they are purchasing. We sell only the finest shoes that are very rare at amazing prices. We have shoes ranging from the late Virgil Abloh's off-white collection, to travis scott jordan 1's, to Kanye's yeezys. We also sell clothing, like one of nikes most popular jump suits (nike tech-fleece) to drakes nocta line including his puffer's and jump suits. 
+               
+                </div>
+               
+               
+               <div class="container">
+                   
+                     <div class="parallax-img" id="para"></div> 
+               
+                <div class="offwhite">
+            <img src="img/offwhite.jpg" class="sect-img" style="width:600px; height:500px;" />
+                </div>
+                   
+                <div class="jordan">
+            <img src="img/jordans.jpg" class="sect-img" style="width:600px; height:500px;" />
+                </div> 
+                   
+                    </div>
+                   
+                  
+               
+               
+               
+               <div class="members">
+                       
+                       <h2>Our Team</h2>
+                   
+                   <div class="row">
+                  <div class="column" style="background-color:red;">
+                    <h2>LeBron James</h2>
+                      <h2>Sales</h2>
+                      <img id="lebron" src="img/james.jpg" class="sect-img" style="width:320px; height:320px;" />
+                     
+                    <p id="lbjbio">Hey guys! My name is LeBron James and im a small-town kid from Akron Ohio. I am 35 years old and have 4 beautiful kids. Being in the shoe industry has always been a dream of mine since i was kid, as i have always been an avid collector of the top notch shoes. My love for basketball is what brought me to this copmany as we sell athletic wear mostly based on basketball!</p>
+                  </div>
+                  
+                       <div class="column" style="background-color:#bbb;">
+                    <h2>Michael Jordan</h2>
+                           <h2>Manager</h2>
+                           <img id="mj" src="img/mj.jpg" class="sect-img" style="width:320px; height:320px;" />
+                    <p id="mjbio">Hello folks! My name is Michael J. Jordan, i was born and raised in North Carolina and am an alumni of UNC. I have 2 kids and an amazing wife. I have a strong passion for athletic wear as i was quite the basketball player in my time. It was always important for me to be fresh off and on the court, and it always gave me more confidence!</p>
+                  </div>
+                  <div class="column" style="background-color:red;">
+                    <h2>Stephen Curry</h2>
+                      <h2>Sales</h2>
+                         <img id="curry" src="img/curry.jpg" class="sect-img" style="width:320px; height:320px;" />
+                    <p id="currybio">Whats up guys! My name is Stephen Curry, and i was also born in Akron Ohio just as my fellow team member LBJ. I have 3 kids and a wife who is the most amazing cook. Just as the other 3, my passion for basketball and athletic wear is what brought me to this company so i could help elevate their goals that also align wih mine!</p>
+                  </div>
+                </div>
+
+
+
+
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   </div>
+                   
+                   
+                   
+                   
+                   
+              
+                
+            </section>
+          <a name="Products" id="s2"></a>
+          <section >
+             <h2 id="Prod">Products</h2>           
+              <div class="grid-container">
+              
+             <div class="grid-item">
+                  
+                  <h3>54A</h3>
+                  
+                  
+                   <img id="j1b" src="img/jroyalblue.jpg" class="sect-img" style="width:320px; height:320px;" /> 
+                  <h2>Jordan 1 Royal Blue</h2>
+                  <p> Jordan 1 royal blue color way. Casual wear and used on the basketball court.</p>
+                 
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Add To Cart
+</button>
+             </div>
+                  
+             <div class="grid-item">
+                  
+                 <h3>54B</h3>
+                 <img id="j4y" src="img/j4y.jpg" class="sect-img" style="width:320px; height:320px;" /> 
+                 <h2>Jordan 4 Bumble Bee</h2>
+                 <p> Jordan 4 bumble bee color way. Casual wear and used on the basketball court.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Add To Cart
+</button>
+              </div>
+              
+             <div class="grid-item">
+                  
+                  <h3>54C</h3>
+                  <img id="j1l" src="img/j1low.jpg" class="sect-img" style="width:320px; height:320px;" /> 
+                  <h2>Jordan 1 Low UNC Blue</h2>
+                  <p> Jordan 1 low UNC blue color way. Casual wear and inspired by UNC basketball.</p>           
+                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Add To Cart
+</button>
+             </div>  
+              
+             <div class="grid-item">
+                  
+                  
+                  <h3>54D</h3>
+                  
+                    <img id="lvj" src="img/lvj.jpg" class="sect-img" style="width:320px; height:320px;" /> 
+                  <h2>Jordan 1 Louis Vuitton</h2>
+                  <p> Jordan 1 Louis Vuitton color way. Casual wear and Authentic LV sold exclusively.</p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Add To Cart
+</button>
+                  </div>
+              
+            <div class="grid-item">
+                  
+                  <h3>54E</h3>
+                  <img id="j1t" src="img/j1t.jpg" class="sect-img" style="width:320px; height:320px;" /> 
+                  <h2>Jordan 1 Travis Scott</h2>
+                  <p> Jordan 1 Travis Scott color way. Casual wear and created by Travis Scott.</p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Add To Cart
+</button>
+                  
+            </div>
+              
+            <div class="grid-item">
+
+                  <h3>54F</h3>
+                  <img id="j5" src="img/j5.jpg" class="sect-img" style="width:320px; height:320px;" /> 
+                  <h2>Jordan 5 Kings</h2>
+                  <p> Jordan 5 Kings color way. Casual wear and inspired by the Sacramento Kings .</p>
+                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Add To Cart
+                </button>
+             </div>  
+            </div>
+
+
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                
+            </section>
+          <a name="Contacts" id="s3"></a>
+          <section>
+              
+              <h2 id="cont">Contacts</h2>
+            <form name="myform" onsubmit="return validate()">
+
+    <label for="name">Name</label>
+    <input class="form-control"  type="text" id="fname" name="name" placeholder="Your name.." onblur="checkName()">
+
+    <label for="lname">Email</label>
+    <input class="form-control" onblur="checkMail()" type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="Reason">Reason for Contact..</label>
+    <select onchange="getReason()" class="form-control"  id="reason" name="reason">
+      <option value="Inquiry">General Inquiry</option>
+      <option value="pricing">Pricing and Bulking Rates</option>
+      <option value="info">Product Info</option>
+      <option value="shipping">Shipping</option>
+
+    </select>
+                  <label id="labprodid" style="display:none" for="prodid">ProductID</label>
+    <input class="form-control" style="display:none" onblur="checkId()"  type="text" id="prodid" name="prodid" placeholder="Product ID ..">
+                
+                <label for="message">Subject</label>
+    <textarea  class="form-control" id="message" onblur="checkMsg()" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+
+    <input type="button" value="Send" class="btn btn-success"  type="button" data-toggle="modal" data-target="#exampleModal2">
+
+  </form>
+
+            </section>
+          <a name="References" id="s2"></a>
+          <section>
+              
+        <h2 id="references">References</h2>
+              
+              <p>
+            https://www.pexels.com/photo/pair-of-white-air-jordan-1-s-2385477/
+            https://www.pexels.com/photo/branded-sneakers-on-shelves-4914807/
+            https://www.wealthx.com/dossier/lebron-james/
+
+            https://www.usfca.edu/news/keep-the-dream-marching-on
+
+            https://www.pexels.com/photo/selective-focus-photography-of-air-jordan-1-on-grass-1031955/
+            https://www.pexels.com/photo/yellow-and-black-jordan-shoes-9546375/
+            https://www.pexels.com/photo/blue-jordans-leaning-on-wall-6540980/
+            https://www.pexels.com/photo/person-wearing-brown-nike-high-top-sneakers-4061395/
+            https://www.pexels.com/photo/a-pair-of-brown-and-white-sneakers-on-a-wooden-floor-7543639/
+            https://www.pexels.com/photo/fashion-people-woman-girl-4462779/</p>
+
+                
+            </section>
+    
+          
+        </div>
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Alert</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Item Succesfully Added to the cart
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Alert</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Successfully sent message
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+
+
+        <script type="text/javascript">
+            let errors = '';
+            function validate(){
+
+                return false;
+            }
+            function checkName(){
+                var name =document.getElementById('fname').value;
+
+
+               if(name.length>4)
+                 {
+                  document.getElementById('fname').style.border = 'solid 3px green';
+                 }
+               else
+                 {
+                    document.getElementById('fname').style.border = 'solid 3px red';
+                 }
+            }
+            function checkMsg(){
+                var name =document.getElementById('message').value;
+
+
+               if(name.length<30 && name.length>10 )
+                 {
+                  document.getElementById('message').style.border = 'solid 3px green';
+                 }
+               else
+                 {
+                    document.getElementById('message').style.border = 'solid 3px red';
+                 }
+            }
+            function checkMail(){
+                var email =document.getElementById('email').value;
+
+
+               if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+                 {
+                  document.getElementById('email').style.border = 'solid 3px green';
+                 }
+               else
+                 {
+                    document.getElementById('email').style.border = 'solid 3px red';
+                 }
+            }
+            function checkId(){
+                getReason();
+                var ids = [
+                    '54A',
+                    '54B',
+                    '54C',
+                    '54D',
+                    '54E',
+                    '54F'
+                ]
+                var prodid = document.getElementById('prodid').value;
+                var reason = document.getElementById('reason').value;
+                var found = 'no';
+                if(reason=='info'){
+                    for (var i = 0; i < ids.length; i++) {
+                        if(ids[i]==prodid){
+                            found = 'yes';
+                        }
+                    }
+                }
+                if(found == 'yes'){
+                    document.getElementById('prodid').style.border = 'solid 3px green';
+                }else{
+                    document.getElementById('prodid').style.border = 'solid 3px red';
+
+                }
+            }
+
+            function getReason(){
+                var reason = document.getElementById('reason').value;
+                if(reason=='info'){
+                    document.getElementById('labprodid').style.display = 'block';
+                    document.getElementById('prodid').style.display = 'block';
+
+                }else{
+                    document.getElementById('labprodid').style.display = 'none';
+                    document.getElementById('prodid').style.display = 'none';
+
+                }
+            }
+        </script>
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    </body>
+</html>
